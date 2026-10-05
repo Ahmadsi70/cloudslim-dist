@@ -90,7 +90,7 @@ mkdir -p "$CONFIG_DIR"
 cat > "$CONFIG_DIR/agent.env" <<EOF
 # CloudSlim Agent configuration
 CLOUDSLIM_LICENSE=$LICENSE_KEY
-CLOUDSLIM_ENDPOINT=https://api.cloudslim.dev:443
+CLOUDSLIM_ENDPOINT=https://altaria.proxy.rlwy.net:32846
 CLOUDSLIM_LOG_LEVEL=info
 EOF
 chmod 600 "$CONFIG_DIR/agent.env"
